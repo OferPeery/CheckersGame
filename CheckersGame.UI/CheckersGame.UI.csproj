@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C438E44-CA17-4056-9068-A9E1432FE710}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CheckersGame.UI</RootNamespace>
+    <AssemblyName>CheckersGame.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IntermediateOutputPath>C:\Users\OFERPE~1\AppData\Local\Temp\vsC0DD.tmp\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IntermediateOutputPath>C:\Users\OFERPE~1\AppData\Local\Temp\vsC0DD.tmp\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormCheckers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCheckers.Designer.cs">
+      <DependentUpon>FormCheckers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGameSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGameSettings.Designer.cs">
+      <DependentUpon>FormGameSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GifImage.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIFlow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormCheckers.resx">
+      <DependentUpon>FormCheckers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGameSettings.resx">
+      <DependentUpon>FormGameSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\BrownBackground.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrownBlueBackground.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteBackground.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrownCheckerCompressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteCheckerCompressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrownKingCompressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteKingCompressed.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteKingChecker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrownKingChecker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteKingCheckerCompressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrownKingCheckerCompressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confety.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WoodBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CheckersGame.Logic\CheckersGame.Logic.csproj">
+      <Project>{0c5d2533-51a8-454a-8927-fec6857ac229}</Project>
+      <Name>CheckersGame.Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
