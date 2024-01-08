@@ -1,8 +1,6 @@
 # Checkers Game
 
-**♟️ A Windows Desktop Board Game**
-- 2 Players -or- play against the computer
-- Check out the [official game instruction](https://docs.google.com/document/d/13gC1NHoNyjfVQDZ5n0ETDZBm3hUAs9gXqNTmpc8H_5o/edit)  
+**♟️ A Windows Desktop Board Game** 
 
 <img width="300" alt="Checkers Board" src="https://github.com/OferPeery/CheckersGame/assets/90853508/ae918ce5-0498-4d38-ae97-ef0e86baaafc">
 <img width="250" alt="Settings Window" src="https://github.com/OferPeery/CheckersGame/assets/90853508/6dfc478b-7f7c-487e-98b8-fda9781de162">  
@@ -16,9 +14,16 @@ https://github.com/OferPeery/CheckersGame/assets/90853508/81282880-58a1-48f9-950
 - [Visual Studio](https://visualstudio.microsoft.com/vs/) IDE, versions: Community 2022, or above
 
 ## Install & Run
+
 - Open via Visual Studio the Solution file: `CheckersGame.sln`.
 - On the top toolbar, click: `build` > `build solution`
 - Click F5
+
+## How to Play
+- Choose the size board and one of the game modes:
+    - 1 Player against the computer
+    - 2 Players
+- Check out the [official game instruction](https://docs.google.com/document/d/13gC1NHoNyjfVQDZ5n0ETDZBm3hUAs9gXqNTmpc8H_5o/edit)
 
 ## Design
 - Object Oriented designed, encapsulating the logic into an even-driven game engine, which a decoupled UI project can consume.  
