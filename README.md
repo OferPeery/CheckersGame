@@ -23,6 +23,8 @@ https://github.com/OferPeery/CheckersGame/assets/90853508/065bbac5-9a9f-497b-9c1
 - Choose the size board and one of the game modes:
     - 1 Player against the computer
     - 2 Players
+- A player wins if all the checkers of the opponent have been eaten, or if the opponnent does not have any legal moves.
+- The winner is granted with points which are the difference between the players' number of checkers, where a King is worth 4 checkers.
 - Check out the [official game instruction](https://docs.google.com/document/d/13gC1NHoNyjfVQDZ5n0ETDZBm3hUAs9gXqNTmpc8H_5o/edit)
 
 ## Design & Tech
@@ -37,5 +39,5 @@ https://github.com/OferPeery/CheckersGame/assets/90853508/065bbac5-9a9f-497b-9c1
 ## License
 
 This application was developed as part of the Object Oriented Programming with C# and .NET Course, lectured by Guy Ronen in Reichman University.  
-This project is licensed under the MIT License (see License.md for more details).  
+This project is licensed under the MIT License (see `LICENSE` file for more details).  
 We do not own any of the photos in this app, nor the game rules.
