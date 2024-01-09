@@ -5,7 +5,7 @@
 <img width="300" alt="Checkers Board" src="https://github.com/OferPeery/CheckersGame/assets/90853508/ae918ce5-0498-4d38-ae97-ef0e86baaafc">
 <img width="250" alt="Settings Window" src="https://github.com/OferPeery/CheckersGame/assets/90853508/6dfc478b-7f7c-487e-98b8-fda9781de162">  
 
-⬇ Watch the game demo ⬇
+
 https://github.com/OferPeery/CheckersGame/assets/90853508/065bbac5-9a9f-497b-9c1e-4ec5a30e500c
 
 ## Prerequisites
