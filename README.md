@@ -20,7 +20,7 @@ https://github.com/OferPeery/CheckersGame/assets/90853508/065bbac5-9a9f-497b-9c1
 - Click F5
 
 ## How to Play
-- Choose the size board and one of the game modes:
+- Choose the size of the board and one of the game modes:
     - 1 Player against the computer
     - 2 Players
 - A player wins if all the checkers of the opponent have been eaten, or if the opponnent does not have any legal moves.
