@@ -6,7 +6,7 @@
 <img width="250" alt="Settings Window" src="https://github.com/OferPeery/CheckersGame/assets/90853508/6dfc478b-7f7c-487e-98b8-fda9781de162">  
 
 ⬇ Watch the game demo ⬇
-https://github.com/OferPeery/CheckersGame/assets/90853508/81282880-58a1-48f9-9509-8cda1c50ca90
+https://github.com/OferPeery/CheckersGame/assets/90853508/065bbac5-9a9f-497b-9c1e-4ec5a30e500c
 
 ## Prerequisites
 - Microsoft Windows 10 or above
